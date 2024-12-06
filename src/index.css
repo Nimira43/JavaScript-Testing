@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=League+Spartan:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  background-color: #012222;
+  color: #ff4500;
+}
+
+.logo {
+  display: inline;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff4500;
+  background-color: #111;
+  padding: 5px 10px;
+  border: 2px solid #012222;
+}
