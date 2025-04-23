@@ -23,5 +23,5 @@ test('This empty test will pass', () => {
 
 test('This empty test will pass too', () => {
   const sum = 4 + 8
-  expect(sum).toBe(23)
+  expect(sum).toBe(12)
 })
