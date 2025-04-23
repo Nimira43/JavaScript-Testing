@@ -20,3 +20,8 @@ test('should render heading with correct text', () => {
 test('This empty test will pass', () => {
   // Empty test - will pass
 })
+
+test('This empty test will pass too', () => {
+  const sum = 4 + 8
+  expect(sum).toBe(23)
+})
