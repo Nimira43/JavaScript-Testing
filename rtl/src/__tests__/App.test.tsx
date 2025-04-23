@@ -8,7 +8,12 @@ test('should render heading with correct text', () => {
 
   screen.debug()
 
-  const heading = screen.getByText('React Testing Library')
+  // Long hand
+  // const heading = screen.getByText('React Testing Library')
+  // expect(heading).toBeInTheDocument()
 
-  expect(heading).toBeInTheDocument()
+  // Short hand
+  expect(screen.getByText('React Testing Library')).toBeInTheDocument()
+
+
 })
