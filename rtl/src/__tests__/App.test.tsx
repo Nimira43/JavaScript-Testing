@@ -15,5 +15,8 @@ test('should render heading with correct text', () => {
   // Short hand
   expect(screen.getByText('React Testing Library')).toBeInTheDocument()
 
+})
 
+test('This empty test will pass', () => {
+  // Empty test - will pass
 })
