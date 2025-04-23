@@ -8,13 +8,13 @@ export default {
     extend: {
       colors: {
         'main': '#ff4500',
-        'support': '#ff4500',
-        'light': '#ff4500',
-        'dark': '#ff4500',
-        'grey-dark': '#ff4500',
-        'grey-medium': '#ff4500',
-        'grey-light': '#ff4500',
-        'grey-light-extra': '#ff4500',
+        'support': '#008080',
+        'light': '#fffcfa',
+        'dark': '#111',
+        'grey-dark': '#333',
+        'grey-medium': '#999',
+        'grey-light': '#ccc',
+        'grey-light-extra': '#eee',
       }
     },
   },
